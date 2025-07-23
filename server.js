@@ -15,7 +15,7 @@ app.use(express.json());
 // sur lequel tourne votre Live Server (ou autre serveur de développement frontend).
 // Ex: si c'est http://127.0.0.1:5500, mettez 'http://127.0.0.1:5500' ou 'http://localhost:5500'
 app.use(cors({
-    origin: 'https://deen-frontend-ewwx.onrender.com', // C'est cette ligne qu'il faut ajuster !
+    origin: 'https://PLACEHOLDER-POUR-URL-FRONTEND-RENDER.onrender.com', // C'est cette ligne qu'il faut ajuster !
 }));
 
 // NOUVELLE LIGNE : Sert les fichiers statiques du dossier 'uploads'
