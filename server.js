@@ -36,7 +36,7 @@ app.use('/api/reservations', reservationRoutes); // NOUVELLE LIGNE
 
 
 // URI de connexion à votre base de données MongoDB
-const dbURI = process.env.MONGODB_URI || 'mongodb://localhost:27017/salonDB';
+const dbURI = process.env.MONGODB_URI;
 
 // Se connecte à MongoDB
 mongoose.connect(dbURI)
